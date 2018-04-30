@@ -1,0 +1,75 @@
+<style>
+    .btn {
+        float: right;
+    }
+    p {
+        font-size: 10px; 
+        color: rgb(177, 173, 173);      
+    }
+
+    img {
+        border-radius: 5%;
+    }
+
+    .container {
+        background-color: rgb(58, 55, 55);
+        border-color:black;
+        border-radius: 2px;
+        width: fit-content;
+        height: 500px;
+    }
+    h1{
+        color: greenyellow;
+        font-style: italic;
+        
+    }
+    .bc{
+        background-color: rgb(58, 55, 55);
+    }
+    
+</style>
+  <div class="bc">
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Excelsior</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                  </ul>
+                </div>
+              </nav>
+              
+        <div class="container">
+                <H1>EXCELSIOR</H1>
+                <a routerLink="/login"><button class="btn btn-default">
+                   Student Login
+                </button></a>
+                <br><br>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure soluta sed doloremque
+                     libero, numquam iusto nam delectus consequuntur tenetur error officia assumenda 
+                     necessitatibus ratione dicta vero reprehenderit! Voluptate, vel libero.
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure soluta sed doloremque
+                     libero, numquam iusto nam delectus consequuntur tenetur error officia assumenda 
+                     necessitatibus ratione dicta vero reprehenderit! Voluptate, vel libero.
+                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure soluta sed doloremque
+                     libero, numquam iusto nam delectus consequuntur tenetur error officia assumenda 
+                     necessitatibus ratione dicta vero reprehenderit! Voluptate, vel libero.
+                </p>
+                <br><br>
+                <div class="image">
+                    <img src="../../assets/dtc.jpg">
+                </div>
+                <br>
+                <br>
+                <!-- <button class="btn" style="float: left;" > View Delhi Technical Campus </button> -->
+                <br><br>
+                
+        </div>
+    </div>
+  <router-outlet></router-outlet>
